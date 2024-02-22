@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cálculo Peso</title>
+</head>
+<body id="cine2">
+
+        <a href="index.html">Cálculo Peso</a><br>
+    <a href="ticket.html">Ticket Cine</a><br>
+
+<div id="cine">
+    
+
+    <fieldset id="bordeExterior">
+        <legend><p>Introduce los datos deseados para ver la película:</p></legend>
+        <div id="formulario">
+
+            <label class="labelformulario" for="fila">Introduce la fila deseada: </label>
+            <input type="number" name="fila" class="inputformulario" id="fila" pattern="[0-9]{2}" placeholder="10" required>
+            <label class="labelformulario" for="asiento">Introduce el asiento deseado: </label>
+            <input type="number" name="asiento" class="inputformulario" id="asiento" pattern="[0-9]{2}" placeholder="21" required>
+            <label class="labelformulario" for="fecha">Introduce el día de la película</label>
+            <input type="date" name="fecha" class="inputformulario" id="fecha" placeholder="26/02/2024" required>
+            <label class="labelformulario" for="hora">Introduce la hora de la película</label>
+            <input type="time" name="hora" class="inputformulario" id="hora" placeholder="18:00" required>
+
+            <input type="submit" class="inputformulario" value="Generar Ticket" onclick="ticket()">
+            
+        </div>
+
+        <div id="ticket">
+            <img src="/images/Ticket.png" alt="Ticket">
+            <div class="subticket" id="row"></div>
+            <div class="subticket" id="seat"></div>
+            <div class="subticket" id="date"></div>
+            <div class="subticket" id="time"></div>
+        </div>
+    </fieldset>
+
+
+
+</div>
+    <script src="main.js"></script>
+</body>
+
+</html>

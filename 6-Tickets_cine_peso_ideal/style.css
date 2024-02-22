@@ -1,0 +1,94 @@
+/* #bodyindex{
+    background-color: bisque;
+}
+
+.inputsindex{
+    display: block;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#resultado{
+    width: fit-content;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: x-large;
+    border-bottom-style: solid;
+} */
+
+#cine2{
+    background-image: url(/images/Curtain.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+#cine{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputformulario{
+    margin-bottom: 20px;
+    padding-left: 6px;
+    font-size: x-large;
+    border-radius: 5px;
+    background-color: rgba(255, 252, 206, 0.627);
+}
+
+.labelformulario{
+    font-size: x-large;
+}
+
+#ticket{
+    display: flex;
+    background-repeat: no-repeat;
+    width: 721px;
+}
+p{
+    font-size: x-large;
+    color: rgb(255, 251, 241);
+    text-shadow: 0px 0px 6px black;
+    
+}
+
+.subticket{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#row{
+    margin-left: -585px;
+    margin-top: 230px;
+    
+}
+
+#seat{
+    margin-left: 65px;
+    margin-top: 230px;
+}
+
+#date{
+    margin-left: 110px;
+    margin-top: 190px;
+}
+
+#time{
+
+    margin-left: -110px;
+    margin-top: 240px;
+}
+
+#bordeExterior{
+    border-radius: 10px;
+    background-color: rgba(250, 185, 106, 0.393);
+}
+
