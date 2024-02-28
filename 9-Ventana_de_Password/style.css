@@ -1,0 +1,15 @@
+#exito{
+    margin-top: 50px;
+    background-color: rgb(34, 255, 0);
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+#fallo{
+    margin-top: 50px;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    color: white;
+}
