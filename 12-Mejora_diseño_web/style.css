@@ -1,0 +1,141 @@
+body{
+    background-image: url(img/x-ray.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: top;
+    
+}
+
+#arriba{
+    background-color: rgba(236, 201, 103, 0.342);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+    .buscador{
+        margin: 10px;
+    }
+    
+
+}
+
+#abajo{
+    background-color: rgba(1, 1, 1, 0.878);
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 100px;
+    color: white;
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    
+
+
+
+
+
+
+    
+}
+#logo{
+    background-image: url(img/logo1.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+#fieldset{
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.144);
+    box-shadow: 0 0 10px white;
+    display: flex;
+    align-items: center;
+    width: 75%;
+    padding: 20px;
+    p{
+        padding-left: 15px;
+
+    }    
+
+}
+.cartas{
+    border-radius: 20px;
+    box-shadow: 0 10px 10px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(145, 145, 145, 0.37);
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+
+
+    h3{
+        display: flex;
+        justify-content: center;
+        text-align: justify ;
+    }
+    p{
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: justify ;
+    }
+    img{   
+        height: 130px;  
+        margin-top: 5px;
+    }
+}
+.cartas:hover{
+    scale: 110%;
+}
+.fila{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#legend{
+    position: absolute;
+    bottom: 1px;
+    right: 20px;
+    border-style: inherit;
+    border-width: 1px;
+    border-radius: 4px;
+    padding: 3px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: beige;
+    text-shadow: 0 0 8px black;
+
+}
+.buscador{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    border: 1px;
+    border-style: inherit;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.144);
+    box-shadow: 0 0 10px white;
+    input{
+        margin: 2px;
+    }
+    label{
+        margin: 2px;
+    }
+
+}
