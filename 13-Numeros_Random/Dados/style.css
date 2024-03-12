@@ -1,0 +1,116 @@
+body{
+    background-image: url("img/fondo3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.centro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#centrar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+    width: 400px;
+    border-style: solid;
+    background-color: rgba(7, 90, 39, 0.725);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#winner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 40px;
+    border-style: solid;
+    background-color: rgba(7, 90, 39, 0.725);
+    padding: 50px;
+    border-radius: 10px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.izq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+    margin-right: 30px;
+    width: 400px;
+    border-style: solid;
+    background-color: rgba(7, 90, 39, 0.725);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.der{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 30px;
+    width: 400px;
+    border-style: solid;
+    background-color: rgba(7, 90, 39, 0.725);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.dados{
+
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    margin-bottom: 30px;
+
+}
+
+
+p{
+    font-size: x-large;
+}
+
+label{
+    font-size: x-large;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input{
+    font-size: medium;
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+img{
+    margin: 10px;
+}
+
+
+#resultado1{
+    height: 20px;
+}
+
+#resultado2{
+    height: 20px;
+}

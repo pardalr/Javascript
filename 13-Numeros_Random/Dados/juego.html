@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Juego Dados</title>
+</head>
+<body id="juego">
+    
+    <div class="center">
+
+        <div class="izq">
+        <label for="jugador1">Jugador 1: </label>
+        <!-- <div id="ism1"></div> -->
+        <div class="dados"><img id="img1" src="img/dado1.png" alt="" width="90px" height="90px"><img id="img2" src="img/dado1.png" alt="" width="90px" height="90px"></div>
+        <input type="button" id="jugador1" onclick="dados(1)" value="JUGAR">
+        <p id="resultado1"></p>
+        </div> 
+
+        <div class="der">
+        <label for="jugador2">Jugador 2: </label>
+        <!-- <div id="ism2"></div> -->
+        <div class="dados"><img id="img3" src="img/dado1.png" alt="" width="90px" height="90px"><img id="img4" src="img/dado1.png" alt="" width="90px" height="90px"></div>
+        <input type="button" id="jugador2" onclick="dados(2)" value="JUGAR">
+        <p id="resultado2"></p>
+        </div>
+
+    </div> 
+
+    <div id="winner"></div>
+    <input type="button" value="Reiniciar" onclick="reiniciar()">
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
