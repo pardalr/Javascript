@@ -1,0 +1,64 @@
+body{
+    display: flex;
+}
+
+#casa1{
+    background-image: url(img/casa1.png);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+#lista1{
+    font-size: x-large;
+    position: absolute;
+    top: 330px;
+    left: 77px;
+}
+
+#casa2{
+    background-image: url(img/casa2.png);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    position: relative;
+
+}
+
+#lista2{
+    font-size: x-large;
+    position: absolute;
+    top: 330px;
+    left: 77px;
+}
+
+#botones{
+
+    margin-top: 325px;
+    width: 200px;
+    height: 400px;
+    input{
+        width: 200px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    #buscar{
+        height: 20px;
+        width: 193px;
+    }
+}
+
+#divText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    #busqueda{
+        position: absolute;
+        right: 3px;
+        bottom: 3px;
+    }
+}
