@@ -1,0 +1,13 @@
+#circulo{
+    margin-top: 10px;
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    
+}
+
+#texto{
+    width: 200px;
+}
