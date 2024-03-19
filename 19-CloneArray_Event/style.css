@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#caja{
+    width: 550px;
+    height: 700px;
+    position: relative;
+    /* background-image: url("images/Gris_Azul_Luna_Mar.jpg"); */
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-style: solid;
+
+}
+
+#izq{
+    position: absolute;
+    rotate: 90deg;
+    width: 150px;
+    margin-top: 10px;
+    left: 0px;
+    transition: 1s;
+}
+
+#izq:hover{
+    transition: 0.5s;
+    transform: scaleX(-1);
+}
+
+#der{
+    position: absolute;
+    rotate: 270deg;
+    width: 150px;
+    right: 0px;
+    transition: 1s;
+}
+
+#der:hover{
+    transition: 0.5s;
+    transform: scaleX(-1);
+}
+
+#imagenes{
+    position: absolute;
+    width: 400px;
+    height: 700px;
+    border-radius: 10px;
+
+}
